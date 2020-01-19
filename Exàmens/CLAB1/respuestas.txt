@@ -1,0 +1,5 @@
+C) No, porque los hijos se crean de forma concurrente y no podemos garantizar el orden de los mensajes que se escriben antes del waitpid.
+
+D) Está en estado "sleeping" porque la shell está bloqueada esperando a que acabe el programa status que acaba de lanzar.
+
+
